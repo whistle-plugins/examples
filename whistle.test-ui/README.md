@@ -1,21 +1,8 @@
 # whistle.test-ui
-插件 UI 可以作为作为服务提供接口及静态资源服务，也可以作为配置管理界面使用。本插件 UI 示例，主要用来展示如何开发 whistle 插件的 UI，以及如何访问插件的 UI 界面。
+插件 UI 可以作为作为服务提供接口及静态资源服务，也可以作为插件的配置管理界面使用。
 
 # 准备工作
-1. 安装插件脚手架 [lack](https://github.com/avwo/lack)：
-    ``` sh
-    npm i -g lack
-    ```
-2. 更新 [whistle](https://github.com/avwo/lack) （使用最新版才能确保所有插件均可用）：
-    ``` sh
-    npm i -g whistle
-    ```
-3. 创建一个专门存放插件的目录，假设目录名称为 `plugins`
-4. 在上述 `plugins` 目录启动 whistle 调试模式（whistle 会自动加载当前目录所有插件）：
-    ``` sh
-    plugins: w2 run
-    ```
-    > 如果出现启动报错，可以执行 `w2 stop` 停止后台 whistle 再 `w2 run`
+参见：[../#readme]
 
 # 创建项目
 1. 在上述 `plugins` 目录下创建新目录 `whistle.test-ui`，命令行进入该目录，执行 `lack init` 创建项目。
