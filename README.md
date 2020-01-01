@@ -167,7 +167,7 @@ tnpm publish
 
 更多用法参考下面的例子。
 
-# 例子
+# 例子（以下各个例子的功能也可以合在一个插件实现）
 1. [UI 界面](./whistle.test-ui)
 2. [请求 Server](./whistle.test-server)
 3. [统计请求信息](./whistle.test-stats)
