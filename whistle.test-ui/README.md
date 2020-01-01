@@ -1,5 +1,5 @@
 # whistle.test-ui
-whistle 插件 UI 示例，主要用来展示如何开发 whistle 插件的 UI，以及如何访问插件的 UI 界面。
+插件 UI 可以作为作为服务提供接口及静态资源服务，也可以作为配置管理界面使用。本插件 UI 示例，主要用来展示如何开发 whistle 插件的 UI，以及如何访问插件的 UI 界面。
 
 # 准备工作
 1. 安装插件脚手架 [lack](https://github.com/avwo/lack)：
