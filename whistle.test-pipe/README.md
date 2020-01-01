@@ -7,7 +7,7 @@
 
 ![image](https://user-images.githubusercontent.com/11450939/71643162-b47bb200-2cf0-11ea-915b-9882810ef858.png)
 
-以 [whistle.test-server](../whistlte.test-server) 为例，设置以下规则后：
+以 [whistle.test-server](https://github.com/whistle-plugins/examples/tree/master/whistle.test-server) 为例，设置以下规则后：
 ``` txt
 $ke.qq.com test-server://base64
 ```
