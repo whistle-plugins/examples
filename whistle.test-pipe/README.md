@@ -14,7 +14,7 @@ $ke.qq.com test-server://base64
 
 <img src="https://user-images.githubusercontent.com/11450939/71643218-9f535300-2cf1-11ea-93f6-0e39e3bf713a.png" width="800" alt="乱码效果">
 
-http://ke.qq.com 的请求内容会转成 base64，这样在 whistle 的 Network 只能看到转成 base64 后的内容，无法看到真实内容，也很难通过规则修改内容，这时即可应用 pipe 功能，在插件里面实现解base64和还原base64操作，项目开发过程这里不再赘述直接参考 [README](../README.md)。
+http://ke.qq.com 的请求内容会转成 base64，这样在 whistle 的 Network 只能看到转成 base64 后的内容，无法看到真实内容，也很难通过规则修改内容，这时即可应用 pipe 功能，在插件里面实现解开和还原base64操作，同样可用 `lack init` 选择 `resRead + resWrite`，项目开发过程这里不再赘述直接参考 [README](../README.md)。
 
 开发完 `whistle.test-pipe` （具体实现看代码），可以做如下配置，即可在 whistle 里面看到真实内容，且可以用规则修改内容：
 ``` txt
