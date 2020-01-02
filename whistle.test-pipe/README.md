@@ -21,6 +21,8 @@ http://ke.qq.com 的请求内容会转成 base64，这样在 whistle 的 Network
 $ke.qq.com test-server://base64 pipe://test-pipe
 ```
 
+> 当然也可以把这两个功能合在一个插件里面
+
 <img src="https://user-images.githubusercontent.com/11450939/71643276-91ea9880-2cf2-11ea-8aff-3b8332622867.png" width="800" alt="解码效果">
 
 <img src="https://user-images.githubusercontent.com/11450939/71643279-9c0c9700-2cf2-11ea-85f9-0841e7502404.png" width="800" alt="不改变响应">
