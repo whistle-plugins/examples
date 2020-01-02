@@ -172,7 +172,7 @@ tnpm publish
 2. [请求 Server](./whistle.test-server)
 3. [统计请求信息](./whistle.test-stats)
 4. [设置规则](./whistle.test-rules)
-5. [获取抓包数据](./whistle.test-sessions)
+5. [获取抓包数据](https://github.com/whistle-plugins/whistle.autosave)
 6. [编解码请求响应数据流](./whistle.test-pipe)
 7. [扩展 Network 右键菜单](./whistle.test-menu)
 8. [保存并同步 Rules & Values 数据](./whistle.test-sync)
