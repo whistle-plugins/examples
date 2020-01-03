@@ -1,0 +1,4 @@
+ke.qq.com/test.html file://`(${query.name})`
+ke.qq.com whistle.test-rules://custom
+whistle.test-rules:// fudao.qq.com www.baidu.com
+www.baidu.com disable://capture

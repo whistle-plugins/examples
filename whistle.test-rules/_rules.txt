@@ -1,0 +1,1 @@
+ke.qq.com/cgi-bin/test file://`(${method})`

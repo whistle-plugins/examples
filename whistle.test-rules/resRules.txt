@@ -1,0 +1,2 @@
+ke.qq.com/cgi-bin/status resHeaders://x-test=1 includeFilter://s:404
+ke.qq.com jsAppend://`(alert("${statusCode}");)` includeFilter://s:404

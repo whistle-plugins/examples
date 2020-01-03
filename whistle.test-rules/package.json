@@ -1,0 +1,14 @@
+{
+  "name": "whistle.test-rules",
+  "version": "1.0.0",
+  "description": "插件规则",
+  "scripts": {
+    "lint": "eslint *.js lib",
+    "lintfix": "eslint --fix *.js lib"
+ },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-config-imweb": "^0.2.19"
+  }
+}
