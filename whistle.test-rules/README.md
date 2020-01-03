@@ -1,7 +1,7 @@
 # whistle.test-rules
 > 有关 whistle 的配置规则可以参考：https://juejin.im/post/5e0ca73ef265da5d674ed593
 
-插件支持设置以下几种规则：
+插件支持设置以下几种规则（可选，按需添加功能即可）：
 1. 静态规则
     - rules.txt：插件全局规则，和在界面 Rules 等价，只是界面 Rules 配置的优先级高于插件 `rules.txt` 里面的规则
     - _rules.txt：插件私有规则，只对匹配插件协议的请求生效，且只作用在请求阶段
