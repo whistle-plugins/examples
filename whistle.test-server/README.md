@@ -2,7 +2,7 @@
 whistle 插件的 `server` 用来直接处理请求，可以通过配置 `pattern plugin-name://opValue` （这里 `plugin-name` 不能包含 `whistle.` 前缀，否则请求不会转发到 server，如：`test-server://xxx`，而不能为 <del>`whistle.test-server://xxx`</del>）。
 
 # 准备工作
-参见：[README](../#readme)
+参见：[README](https://github.com/whistle-plugins/examples#readme)
 
 # 创建项目
 1. 在上述 `plugins` 目录下创建新目录 `whistle.test-server`，命令行进入该目录，执行 `lack init` 创建项目。
