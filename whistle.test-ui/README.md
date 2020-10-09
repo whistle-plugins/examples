@@ -2,7 +2,7 @@
 插件 UI 可以作为作为服务提供接口及静态资源服务，也可以作为插件的配置管理界面使用。
 
 # 准备工作
-参见：[README](../#readme)
+参见：[README](https://github.com/whistle-plugins/examples#readme)
 
 # 创建项目
 1. 在上述 `plugins` 目录下创建新目录 `whistle.test-ui`，命令行进入该目录，执行 `lack init` 创建项目。
@@ -33,6 +33,8 @@
     - https://ke.qq.com/...whistle-path.5b6af7b9884e1165...///whistle.test-ui/xxx/inject.js
     - https://www.test.com/...whistle-path.5b6af7b9884e1165...///whistle.test-ui/xxx/inject.js
     - 可以注入到界面用相对路径：`<script src="/...whistle-path.5b6af7b9884e1165...///whistle.test-ui/xxx/inject.js"></script>`
-<img width="960" src="https://user-images.githubusercontent.com/11450939/71641311-9b650800-2cd4-11ea-88c9-d954aef61121.png">
+    
+    <img width="960" src="https://user-images.githubusercontent.com/11450939/71641311-9b650800-2cd4-11ea-88c9-d954aef61121.png">
+
 # 添加构建
 参考下 nohost 的构建：https://github.com/nohosts/nohost/tree/master/src/config

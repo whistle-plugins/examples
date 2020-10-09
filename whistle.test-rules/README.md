@@ -11,8 +11,8 @@
     - tunnelRulesServer：插件动态私有规则，只对 tunnel 请求生效，作用同 `rulesServer`
     - resRulesServer：插件动态私有规则，功能同 `resRules.txt`，只是 `resRulesServer` 可以通过编码动态设置，优先级也高于 `resRules.txt`
 
-  # 准备工作
-参见：[README](../#readme)
+# 准备工作
+参见：[README](https://github.com/whistle-plugins/examples#readme)
 
 # 创建项目
 1. 在上述 `plugins` 目录下创建新目录 `whistle.test-rules`，命令行进入该目录，执行 `lack init` 创建项目。
