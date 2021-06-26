@@ -1,0 +1,16 @@
+{
+  "name": "whistle.test-sync",
+  "version": "1.0.0",
+  "description": "如何读取 Rules & Values 和手动同步远程 Rules & Values",
+  "whistleConfig": {
+    "rulesUrl": "/cgi-bin/rules",
+    "valuesUrl": "/cgi-bin/values"
+  },
+  "dependencies": {
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-onerror": "^4.1.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}
