@@ -17,8 +17,11 @@
     lack watch
     ```
 实现方法直接参考本项目代码。
+
+> 注意需要在 `package.json` 里面的 `whistleConfig` 配置 `rulesUrl` 和 `valuesUrl` 对应加载 Rules 和 Values 的接口链接
 # 使用
 
+![image](https://user-images.githubusercontent.com/11450939/123501761-ce921880-d679-11eb-865a-0fc33cc6a8cf.png)
 
 # 添加构建
 参考下 nohost 的构建：https://github.com/nohosts/nohost/tree/master/src/config
