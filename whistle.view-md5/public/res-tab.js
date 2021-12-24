@@ -10,7 +10,7 @@
 
   var wb = window.whistleBridge;
   var cgiOpts = {
-    url: 'cgi-bin/md5',
+    url: 'whistle.view-md5/cgi-bin/md5',
     type: 'post',
     mode: 'cancel'
   };

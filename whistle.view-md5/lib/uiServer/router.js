@@ -6,7 +6,7 @@ const toMD5 = (str) => {
 };
 
 module.exports = (router) => {
-  router.get('/cgi-bin/md5', (ctx) => {
+  router.post('/cgi-bin/md5', (ctx) => {
     const { text, base64 } = ctx.request.body;
     const result = { md5: '' };
     if (text && typeof text === 'string') {
