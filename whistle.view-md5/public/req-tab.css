@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+button {
+  outline: none;
+  background-color: #fff;
+  border: none;
+  border-right: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+button.active {
+  background-color: #f1f1f1;
+}
+.tab-list {
+  border-bottom: 1px solid #ccc;
+}
+
+#urlResult, #bodyResult {
+  padding: 20px;
+  text-align: center;
+}
+
+
