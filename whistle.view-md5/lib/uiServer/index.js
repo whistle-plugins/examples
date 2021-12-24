@@ -14,7 +14,7 @@ module.exports = (server/* , options */) => {
   app.silent = true;
   onerror(app);
   setupRouter(router);
-  app.use(bodyParser());
+  app.use(bodyParser({ formLimit: '10mb' }));
   app.use(router.routes());
   app.use(router.allowedMethods());
   app.use(serve(path.join(__dirname, '../../public'), { maxage: MAX_AGE }));
