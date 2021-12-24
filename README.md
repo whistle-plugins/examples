@@ -10,6 +10,7 @@
 6. 编解码请求响应数据流（pipe stream 功能）
 7. 扩展 Network 右键菜单
 8. 保存并同步 Rules & Values 数据
+9. 在 Network / Inspectors 自定义 Tab
 
 # 准备工作
 1. 安装插件脚手架 [lack](https://github.com/avwo/lack)：
@@ -176,3 +177,4 @@ tnpm publish
 6. [编解码请求响应数据流](./whistle.test-pipe)
 7. [扩展 Network 右键菜单](./whistle.test-menu)
 8. [保存并同步 Rules & Values 数据](./whistle.test-sync)
+9. [在 Network / Inspectors 自定义 Tab](./whistle.view-md5)
