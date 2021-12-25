@@ -60,7 +60,7 @@
     };
     loadMD5();
   });
-  wb.addSessionReadyListener(function(item) {
+  wb.addSessionRequestListener(function(item) {
     if (!item) {
       return;
     }

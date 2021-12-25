@@ -23,7 +23,7 @@
     }
     content.innerHTML = '计算中...';
   });
-  wb.addSessionReadyListener(function(item) {
+  wb.addSessionCompleteListener(function(item) {
     if (!item) {
       return;
     }
