@@ -10,7 +10,7 @@ module.exports = (router) => {
     const data = Object.assign({}, getValues());
     data[history || ''] = history || '';
     ctx.body = {
-      // whistle >= v2.9.6
+      // whistle >= v2.9.9
       list: ['2022-04-16 12:11:01', '2022-04-15 10:11:01', '2022-04-14 09:11:01'],
       data: history === 'empty' ? {} : data,
     };
