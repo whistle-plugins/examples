@@ -6,6 +6,13 @@ module.exports = (router) => {
     ctx.body = getRules();
   });
   router.get('/cgi-bin/values', (ctx) => {
-    ctx.body = getValues();
+    const { history } = ctx.request.query;
+    const data = Object.assign({}, getValues());
+    data[history || ''] = history || '';
+    ctx.body = {
+      // whistle >= v2.9.6
+      list: ['2022-04-16 12:11:01', '2022-04-15 10:11:01', '2022-04-14 09:11:01'],
+      data: history === 'empty' ? {} : data,
+    };
   });
 };
