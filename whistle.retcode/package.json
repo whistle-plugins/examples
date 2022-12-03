@@ -1,0 +1,16 @@
+{
+  "name": "whistle.retcode",
+  "version": "1.0.0",
+  "description": "自定义 Network 的列，并显示业务接口返回的 retcode",
+  "whistleConfig": {
+    "hideLongProtocol": true,
+    "hideShortProtocol": true,
+    "networkColumn": {
+      "name": "RetCode",
+      "width": 90,
+      "showTips": true,
+      "key": "customData.retcode.code"
+    },
+    "webWorker": "js/webWorker.js"
+  }
+}
