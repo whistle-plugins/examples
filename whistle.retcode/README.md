@@ -1,6 +1,8 @@
 # whistle.retcode
 在抓包界面 Network 新增一列 `RetCode`，并显示接口响应内容的状态码 `retcode`，且如果 `retcode` 不正常时修改抓包数据的背景颜色及字体样式。
 
+> Whistle 版本要求 `>= v2.9.38`
+
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/11450939/205444405-4db818f8-8702-4d7f-9fed-ba5f89097b89.png">
 
 
