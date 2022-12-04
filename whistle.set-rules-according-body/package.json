@@ -1,0 +1,9 @@
+{
+  "name": "whistle.set-rules-according-body",
+  "version": "1.0.0",
+  "description": "根据请求或响应内容设置规则",
+  "scripts": {
+    "lint": "eslint *.js lib",
+    "lintfix": "eslint --fix *.js lib"
+ }
+}

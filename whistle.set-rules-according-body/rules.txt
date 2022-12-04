@@ -1,0 +1,3 @@
+
+# 对所有请求生效
+* set-rules-according-body://
