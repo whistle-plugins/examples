@@ -1,0 +1,14 @@
+{
+  "name": "whistle.test-pipe-tunnel",
+  "version": "1.0.0",
+  "description": "",
+  "whistleConfig": {},
+  "scripts": {
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "lack-proxy": "^1.3.7",
+    "typescript": "^4.6.2"
+  }
+}

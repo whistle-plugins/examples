@@ -1,2 +1,2 @@
 
-exports.server = require('./lib/server');
+exports.server = require('./dist/server').default;

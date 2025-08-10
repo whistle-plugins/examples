@@ -1,0 +1,122 @@
+{
+  "name": "whistle.test-network-ext",
+  "version": "1.0.0",
+  "description": "",
+  "whistleConfig": {
+    "networkColumn": {
+      "name": "Referer",
+      "key": "req.headers.referer",
+      "iconKey": "",
+      "showTitle": true,
+      "width": 120
+    },
+    "webWorker": "/public/webWorker.js",
+    "networkMenus": [
+      {
+        "name": "Network Menu1",
+        "action": "/public/network-menu.html",
+        "required": false,
+        "requiredTreeNode": false,
+        "urlPattern": ""
+      },
+      {
+        "name": "Network Menu2",
+        "action": "/public/network-menu.html",
+        "required": true,
+        "requiredTreeNode": true,
+        "urlPattern": ""
+      }
+    ],
+    "rulesMenus": [
+      {
+        "name": "Rules Menu1",
+        "action": "/public/rules-menu.html",
+        "required": false,
+        "requiredTreeNode": false,
+        "urlPattern": ""
+      },
+      {
+        "name": "Rules Menu2",
+        "action": "/public/rules-menu.html",
+        "required": true,
+        "requiredTreeNode": true,
+        "urlPattern": ""
+      }
+    ],
+    "valuesMenus": [
+      {
+        "name": "Values Menu1",
+        "action": "/public/values-menu.html",
+        "required": false,
+        "requiredTreeNode": false,
+        "urlPattern": ""
+      },
+      {
+        "name": "Values Menu2",
+        "action": "/public/values-menu.html",
+        "required": true,
+        "requiredTreeNode": true,
+        "urlPattern": ""
+      }
+    ],
+    "pluginsMenus": [
+      {
+        "name": "Plugins Menu1",
+        "action": "/public/plugins-menu.html",
+        "required": false,
+        "requiredTreeNode": false,
+        "urlPattern": ""
+      },
+      {
+        "name": "Plugins Menu2",
+        "action": "/public/plugins-menu.html",
+        "required": true,
+        "requiredTreeNode": true,
+        "urlPattern": ""
+      }
+    ],
+    "inspectorsTab": {
+      "name": "Inspectors Tab",
+      "action": "/public/network-tab.html",
+      "icon": "",
+      "req": {
+        "name": "Request Tab",
+        "action": "/public/network-tab.html",
+        "icon": ""
+      },
+      "res": {
+        "name": "Response Tab",
+        "action": "/public/network-tab.html",
+        "icon": ""
+      }
+    },
+    "composerTab": {
+      "name": "Composer Tab",
+      "action": "/public/network-tab.html",
+      "icon": ""
+    },
+    "toolsTab": {
+      "name": "Tools Tab",
+      "action": "/public/network-tab.html",
+      "icon": ""
+    }
+  },
+  "scripts": {
+    "dev": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "typescript": "^4.6.2",
+    "@types/koa": "^2.13.4",
+    "@types/koa__router": "^12.0.4",
+    "@types/koa-bodyparser": "^4.3.5",
+    "@types/koa-static": "^4.0.2"
+  },
+  "dependencies": {
+    "koa": "^2.15.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-onerror": "^4.2.0",
+    "@koa/router": "^13.1.1",
+    "koa-static": "^5.0.0"
+  }
+}

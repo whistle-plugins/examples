@@ -1,0 +1,1 @@
+* resBody://`(whistle_error_${statusCode})` includeFilter://s:500 includeFilter://s:404
